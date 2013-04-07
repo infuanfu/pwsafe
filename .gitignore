@@ -28,3 +28,5 @@ pwsafe.lsm
 pwsafe.spec
 stamp-h1
 
+# build output
+pwsafe
