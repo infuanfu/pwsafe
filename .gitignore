@@ -11,3 +11,20 @@
 *.lai
 *.la
 *.a
+
+# autotools artifacts
+.deps
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.h
+config.h.in
+config.log
+config.status
+configure
+pwsafe.1
+pwsafe.lsm
+pwsafe.spec
+stamp-h1
+
