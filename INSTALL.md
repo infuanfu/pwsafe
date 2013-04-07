@@ -2,27 +2,27 @@
 
 ## HOW TO BUILD FROM SOURCE TARBALL
 
-   tar xzf <tarball>
-   cd <dir>
-   ./configure
-   make
-   make check     # to be sure it's working
-   make install
+    tar xzf <tarball>
+    cd <dir>
+    ./configure
+    make
+    make check     # to be sure it's working
+    make install
    
 ## And for the secure memory allocation to work, pwsafe must be install suid root
 
-   chown root:root %install_prefix%/bin/pwsafe
-   chmod +s %install_prefix%/bin/pwsafe
+    chown root:root %install_prefix%/bin/pwsafe
+    chmod +s %install_prefix%/bin/pwsafe
 
 
 ## HOW TO BUILD FROM CVS
 
-   cd <dir>
-   aclocal        # generate aclocal.m4
-   autoheader     # generate config.h.in from configure.ac
-   automake       # generated Makefile.in from Makefile.am
-   autoconf       # generate configure from configure.ac
-   ./configure    # etc...; from here on you're on your own
+    cd <dir>
+    aclocal        # generate aclocal.m4
+    autoheader     # generate config.h.in from configure.ac
+    automake       # generated Makefile.in from Makefile.am
+    autoconf       # generate configure from configure.ac
+    ./configure    # etc...; from here on you're on your own
 
 ## Dependencies
 
