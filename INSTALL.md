@@ -9,7 +9,7 @@
     make check     # to be sure it's working
     make install
    
-## And for the secure memory allocation to work, pwsafe must be install suid root
+And for the secure memory allocation to work, pwsafe must be install suid root
 
     chown root:root %install_prefix%/bin/pwsafe
     chmod +s %install_prefix%/bin/pwsafe
